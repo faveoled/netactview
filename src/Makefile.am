@@ -2,11 +2,6 @@
 
 ## Created by Anjuta
 
-glade_images = netactview-icon.png auto-refresh-icon.png
-
-gladedir = $(datadir)/netactview/glade
-glade_DATA = $(glade_images) netactview.glade
-
 INCLUDES = \
 	-DPREFIX=\""$(prefix)"\" \
 	-DBINDIR=\""$(bindir)"\" \
@@ -42,4 +37,8 @@ netactview_LDFLAGS =
 
 netactview_LDADD = $(NETACTVIEW_LIBS)
 
-EXTRA_DIST = $(glade_DATA)
+@INTLTOOL_XML_RULE@
+uifile = $(srcdir)/netactview.ui
+uidir = $(datadir)/netactview
+ui_DATA = $(uifile)
+EXTRA_DIST = netactview.ui

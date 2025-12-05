@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=Net Activity Viewer
+Name[et]=Võrguaktiivsuse vaataja
+Name[it]=Visualizzatore attività di rete
+Name[pt]=Net Activity Viewer
+Name[ro]=Vizualizator de conexiuni
+Name[ru]=Net Activity Viewer
+Comment=View network connections
+Comment[et]=Võrguühenduste vaatamine
+Comment[it]=Visualizza connessioni di rete
+Comment[pt]=Ver Conexões de Rede
+Comment[ro]=Vezi conexiunile la reţea
+Comment[ru]=Просмотр сетевых соединений
+Exec=netactview
+Icon=netactview
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Network;Monitor;

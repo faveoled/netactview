@@ -25,7 +25,7 @@ AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [GETTEXT package name])
 AM_GLIB_GNU_GETTEXT
 
 
-PKG_CHECK_MODULES(NETACTVIEW, [gtk+-2.0 >= 2.8 libglade-2.0 gnome-vfs-2.0 >= 2.4 glib-2.0 >= 2.8 libgnome-2.0 gconf-2.0 libgtop-2.0 >= 2.12])
+PKG_CHECK_MODULES(NETACTVIEW, [gtk+-3.0 >= 3.0 glib-2.0 >= 2.32 gmodule-2.0 >= 2.0 gio-2.0 libgtop-2.0 >= 2.28])
 AC_SUBST(NETACTVIEW_CFLAGS)
 AC_SUBST(NETACTVIEW_LIBS)
 
